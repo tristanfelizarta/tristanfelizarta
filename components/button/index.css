@@ -1,0 +1,23 @@
+.btn {
+    @apply rounded-lg font-medium duration-200 ease-linear;
+}
+
+.btn.primary {
+    @apply bg-slate-950 text-white hover:bg-slate-900;
+}
+
+.btn.secondary {
+    @apply bg-transparent outline outline-1 outline-slate-200 hover:bg-slate-100;
+}
+
+.btn.sm {
+    @apply px-4 py-[10px] text-sm;
+}
+
+.btn.md {
+    @apply px-6 py-3 text-sm;
+}
+
+.btn.icon.sm {
+    @apply p-3;
+}

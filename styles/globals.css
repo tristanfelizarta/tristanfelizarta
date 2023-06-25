@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root,
+    html,
+    body {
+        @apply h-full;
+    }
+
+    body {
+        @apply bg-white tracking-[0.0025rem] text-slate-950 dark:bg-slate-950 dark:text-white;
+    }
+}
