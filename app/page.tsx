@@ -18,7 +18,7 @@ const Page = () => {
             </p>
 
             <div className="flex gap-3">
-                <Link href="/" className="btn primary md">
+                <Link href="/showcase" className="btn primary md">
                     Showcase
                 </Link>
 
