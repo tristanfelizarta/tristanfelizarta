@@ -48,6 +48,12 @@ const content = [
 const Page = () => {
     return (
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="col-span-3">
+                <p className="text-center text-sm text-yellow-400">
+                    🟡 All systems undergoing maintenance. Thank you!
+                </p>
+            </div>
+
             {content.map((data) => (
                 <a href={data.link} target="_blank" key={data.id}>
                     <Image
