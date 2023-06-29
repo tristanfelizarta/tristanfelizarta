@@ -3,11 +3,11 @@
 }
 
 .btn.primary {
-    @apply bg-slate-950 text-white hover:bg-slate-900;
+    @apply bg-white text-slate-950 hover:bg-slate-100;
 }
 
 .btn.secondary {
-    @apply bg-transparent outline outline-1 outline-slate-200 hover:bg-slate-100;
+    @apply bg-transparent outline outline-1 outline-slate-200;
 }
 
 .btn.sm {

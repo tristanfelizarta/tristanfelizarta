@@ -50,17 +50,13 @@ const Page = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
             {content.map((data) => (
                 <a href={data.link} target="_blank" key={data.id}>
-                    <div className="flex flex-col gap-3 rounded-3xl bg-slate-100 p-3">
-                        <Image
-                            alt={data.title}
-                            src={data.image}
-                            placeholder="blur"
-                            quality={100}
-                            className="rounded-xl"
-                        />
-
-                        <h1 className="font-medium">{data.title}</h1>
-                    </div>
+                    <Image
+                        alt={data.title}
+                        src={data.image}
+                        placeholder="blur"
+                        quality={100}
+                        className="rounded-xl"
+                    />
                 </a>
             ))}
         </div>

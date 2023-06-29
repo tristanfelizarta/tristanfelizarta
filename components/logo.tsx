@@ -22,7 +22,7 @@ const Logo = () => {
                 width="17.4057"
                 height="6.96228"
                 transform="rotate(45 27.0769 7.38461)"
-                fill="black"
+                fill="white"
             />
 
             <rect
@@ -39,7 +39,7 @@ const Logo = () => {
                 width="6.96228"
                 height="27.8491"
                 transform="rotate(45 19.6923 0)"
-                fill="black"
+                fill="white"
             />
 
             <defs>
@@ -51,8 +51,8 @@ const Logo = () => {
                     y2="15.7888"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="black" />
-                    <stop offset="1" stopColor="black" stopOpacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                 </linearGradient>
 
                 <linearGradient
@@ -63,8 +63,8 @@ const Logo = () => {
                     y2="29.1161"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="black" />
-                    <stop offset="1" stopColor="black" stopOpacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                 </linearGradient>
             </defs>
         </svg>

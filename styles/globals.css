@@ -10,6 +10,6 @@
     }
 
     body {
-        @apply bg-white tracking-[0.0025rem] text-slate-950 dark:bg-slate-950 dark:text-white;
+        @apply bg-slate-950 bg-[url('/background.svg')] bg-cover bg-fixed bg-center tracking-[0.0025rem] text-white;
     }
 }
